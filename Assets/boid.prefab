@@ -117,10 +117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8afbf8b5cb66bc24e8bb8c8a48dc4196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedMax: 1
-  accelMax: 0.8
-  currentAcceleration: {x: 0, y: 0, z: 0}
-  rigidBody: {fileID: 0}
+  waterTransform: {fileID: -8679921383154817045, guid: 877233583b128904397e5b590fdc6b0d, type: 3}
+  waterSize: {x: 1, y: 1.5, z: 1}
+  turnSpeed: 3
 --- !u!54 &4704192958434421656
 Rigidbody:
   m_ObjectHideFlags: 0
