@@ -120,6 +120,19 @@ MonoBehaviour:
   waterTransform: {fileID: -8679921383154817045, guid: 877233583b128904397e5b590fdc6b0d, type: 3}
   waterSize: {x: 1, y: 1.5, z: 1}
   turnSpeed: 3
+  target: {fileID: 0}
+  maxSpeed: 1.5
+  maxAccel: 5
+  avoidDistance: 2
+  avoidForce: 5
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 64
+  pursueWeight: 1
+  evadeWeight: 1
+  matchVelocityWeight: 0.5
+  obstacleAvoidWeight: 3
+  controlMode: 0
 --- !u!54 &4704192958434421656
 Rigidbody:
   m_ObjectHideFlags: 0
